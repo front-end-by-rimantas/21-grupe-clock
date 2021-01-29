@@ -8,7 +8,7 @@ function clock(selector) {
             DOM.innerText = 'FINITO';
             clearInterval(timer);
         }
-    }, 10);
+    }, 1000);
 }
 
 export { clock }
